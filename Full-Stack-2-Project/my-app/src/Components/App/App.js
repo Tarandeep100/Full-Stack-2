@@ -3,7 +3,7 @@ import './App.css';
 import Admin from '../Admin/Admin';
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import Home from '../Home/Home';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 function App() {
 

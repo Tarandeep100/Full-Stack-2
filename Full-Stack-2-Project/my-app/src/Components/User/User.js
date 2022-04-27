@@ -87,9 +87,9 @@ class User extends React.Component {
     // console.log("purge");
     // console.log(this.state.deletedRows);
     //TO-DO delete data from backend
-    var newUserData= this.state.UserData.filter(
-        (r) => this.state.deletedRows.filter((sr) => sr == r._id).length < 1
-      );
+    // var newUserData= this.state.UserData.filter(
+    //     (r) => this.state.deletedRows.filter((sr) => sr == r._id).length < 1
+    //   );
     // console.log(newUserData);
     this.setState({
       UserData: this.state.UserData.filter(

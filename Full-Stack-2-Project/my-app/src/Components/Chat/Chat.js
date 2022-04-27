@@ -68,9 +68,9 @@ class Chat extends React.Component {
     // console.log("purge");
     // console.log(this.state.deletedRows);
     //TO-DO delete data from backend
-    var newChatData= this.state.ChatData.filter(
-        (r) => this.state.deletedRows.filter((sr) => sr == r._id).length < 1
-      );
+    // var newChatData= this.state.ChatData.filter(
+    //     (r) => this.state.deletedRows.filter((sr) => sr == r._id).length < 1
+    //   );
     // console.log(newChatData);
     this.setState({
       ChatData: this.state.ChatData.filter(

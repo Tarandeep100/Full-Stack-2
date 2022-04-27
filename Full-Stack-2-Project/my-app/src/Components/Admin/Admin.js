@@ -22,7 +22,7 @@ function Admin(props) {
   const [errorMessages, setErrorMessages] = useState({});
   // const [isSubmitted, setIsSubmitted] = useState(false);
   // const [isAdmin, setIsAdmin] = useState(false);
-  const [open, setOpen] = useState(false);
+  // const [open, setOpen] = useState(false);
   let navigate = useNavigate();
   // console.log({isSubmitted, isAdmin});
   
@@ -87,7 +87,7 @@ function Admin(props) {
 
   const handleGuest = (event) => {
     props.childToParent({isAdmin:false, isGuest:true})
-    setOpen(true);
+    // setOpen(true);
     // setIsSubmitted(true);
     setErrorMessages({});
     let path = `/home`;

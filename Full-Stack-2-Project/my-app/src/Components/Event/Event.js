@@ -76,9 +76,9 @@ class Event extends React.Component {
     // console.log("purge");
     // console.log(this.state.deletedRows);
     //TO-DO delete data from backend
-    var newEventData= this.state.EventData.filter(
-        (r) => this.state.deletedRows.filter((sr) => sr == r._id).length < 1
-      );
+    // var newEventData= this.state.EventData.filter(
+    //     (r) => this.state.deletedRows.filter((sr) => sr == r._id).length < 1
+    //   );
     // console.log(newEventData);
     this.setState({
       EventData: this.state.EventData.filter(
