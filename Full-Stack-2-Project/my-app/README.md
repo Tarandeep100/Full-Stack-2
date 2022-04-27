@@ -41,5 +41,5 @@ Start the frontend-server (port: 3000)
 ## Screenshots
 
 ![App Screenshot Login Page](public/screenshot/Login.png)
-![App Screenshot Guest Login](public/screenshot/guest.png)
+![App Screenshot Guest Login](public/screenshot/Guest.png)
 ![App Screenshot Admin Login](public/screenshot/admin.png)
